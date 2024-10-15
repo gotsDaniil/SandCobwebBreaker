@@ -1,0 +1,5 @@
+name: SandCobwebBreaker
+version: '${project.version}'
+main: com.example.sandcobwebbreaker.SandCobwebBreaker
+api-version: '1.16'
+load: STARTUP
