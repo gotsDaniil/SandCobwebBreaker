@@ -1,0 +1,11 @@
+name: SandCobwebBreaker
+version: '${project.version}'
+main: work.gotsDaniil.sandcobwebbreaker.SandCobwebBreaker
+api-version: '1.16'
+load: STARTUP
+commands:
+  sandcobwebbreaker:
+    description: Перезагружает конфигурацию плагина SandCobwebBreaker
+    usage: /sandcobwebbreaker reload
+    permission: sandcobwebbreaker.reload
+    permission-message: У вас нет прав для выполнения этой команды
